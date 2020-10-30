@@ -1,5 +1,10 @@
 public class HelloGitHub {
     public static void main(String[] args) {
-        System.out.println("Hello GitHub");
+        printArguments(args);
+    }
+    private static void printArguments(String[] args){
+        for(int i = 0; i<args.length; i++){
+            System.out.println(args[i]);
+        }
     }
 }
